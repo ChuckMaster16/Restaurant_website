@@ -1,12 +1,12 @@
 .body {
   font-size: 16px;
   color: #fff;
-  background-color: #61122f;
+  background-color: rgb(27, 19, 22);
   font-family: 'Oxygen', sans-serif;
 }
 
 #header-nav{
-  background-color: #f6b319;
+  background-color: rgb(63, 22, 46);
   border-radius: 0;
   border: 0;
 }
@@ -31,11 +31,11 @@
    margin: 10px 0 0 0;
  }
  #nav-list a{
-   color: #951c49;
+   color: white;
    text-align: center;
  }
  #nav-list a:hover{
-   color: #e7e7e7;
+   color: #a82323;
  }
  #nav-list a span{
    font-size: 1.8em;
