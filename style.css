@@ -5,7 +5,23 @@
   font-family: 'Oxygen', sans-serif;
 }
 
-#header-nav{
+
+#logo-img {
+    width: 75px;
+    height: 75px;
+    margin: 23px 5px 5px 0;
+  }
+
+
+
+
+
+
+
+
+
+
+/* #header-nav{
   background-color: rgb(63, 22, 46);
   border-radius: 0;
   border: 0;
@@ -26,6 +42,9 @@
   color: white;
   font-size: 2.5em;
   font-weight: bold;
+  position: relative;
+  left: 4em;
+  bottom: 3em;
 }
  #nav-list{
    margin: 10px 0 0 0;
@@ -76,7 +95,7 @@ div#collapsable-nav.navbar-collapse.pull-right.collapse.show{
 div#collapsable-nav.collapse.navbar-collapse.pull-right{
   position: relative;
   bottom: 7em;
-}
+} */
 
 .mainimage{
   text-align: center;
