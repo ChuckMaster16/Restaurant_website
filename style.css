@@ -5,97 +5,41 @@
   font-family: 'Oxygen', sans-serif;
 }
 
-
 #logo-img {
     width: 75px;
     height: 75px;
     margin: 23px 5px 5px 0;
   }
-
-
-
-
-
-
-
-
-
-
-/* #header-nav{
-  background-color: rgb(63, 22, 46);
-  border-radius: 0;
-  border: 0;
+button.carousel-control-prev{
+  background-color: #180512;;
+  border-style: none;
 }
-#logo-img{
-  width: 150px;
-  height: 150px;
-  margin: 10px 15px 10px 0;
+span.carousel-control-prev-icon{
+  height: 10% !important;
+  width:  100% !important;
 }
-.star {
-  width: 25px;
-  height: 25px;
-  margin: 10px 15px 10px 0;
-  filter: drop-shadow(2px 4px 6px black);
+button.carousel-control-next{
+  background-color: #180512;
+  border-style: none;
+}
+span.carousel-control-next-icon{
+  height: 10% !important;
+  width:  100% !important;
 }
 
-.company{
-  color: white;
-  font-size: 2.5em;
-  font-weight: bold;
-  position: relative;
-  left: 4em;
-  bottom: 3em;
-}
- #nav-list{
-   margin: 10px 0 0 0;
- }
- #nav-list a{
-   color: white;
-   text-align: center;
- }
- #nav-list a:hover{
-   color: #a82323;
- }
- #nav-list a span{
-   font-size: 1.8em;
- }
-{
-   margin: 5px 0 0 0;
- }
- #phone a{
-   text-align: right;
-   padding-bottom: 0;
- }
- #phone div {
-   color: #557c3e;
-   text-align: right;
-   padding: 0 15px 0 0;
- }
-
- button.navbar-toggle, .navbar-header .icon-bar{
-   clear: both;
-   margin-bottom: 2em;
-   margin-top: -1rem;
- }
- .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    /* border-color: #e7e7e7; */
-    border-style: none;
-    text-align: center;
+div#navbarNav.navbar-collapse.collapse{
+  text-align: center;
     width: 100%;
-    height: auto;
-    margin: 25px 0 0 0;
 }
-/* #collapsable-nav */
-div#collapsable-nav.navbar-collapse.pull-right.collapse.show{
-
-
-    top: 4rem;
-
+div#navbarNav.navbar-collapse.collapse:hover{
+  color: rgb(242 191 99);
 }
-div#collapsable-nav.collapse.navbar-collapse.pull-right{
-  position: relative;
-  bottom: 7em;
-} */
+a.navbar-brand{
+  color:grey;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
 
 .mainimage{
   text-align: center;
@@ -131,6 +75,12 @@ filter: drop-shadow(-5px 22px 11px black);
   overflow: hidden;
   border-radius: 10px;
 }
+
+div#map-tile{
+    text-align: center;
+    width: 80%;
+}
+
 #menu-title:hover, #menu-title2:hover, #map-tile:hover{
 box-shadow: 0 1px 5px 1px #cccccc;
 }
@@ -139,6 +89,7 @@ box-shadow: 0 1px 5px 1px #cccccc;
   background-image:url("images/fishsalad.png");
   background-position: center;
   background-repeat: no-repeat;
+
 }
 #menu-title2{
   background-image:url('images/beers.png');
@@ -168,10 +119,11 @@ box-shadow: 0 1px 5px 1px #cccccc;
 
 }
 
-.testimonial-image {
-  border-radius: 100%;
-  width: 10%;
-  margin: 20px;
+.carousel-item img#testimonial-images {
+    border-radius: 100%;
+    height: 115px;
+    width: 65px;
+    margin: 76px 0 0 -11px;
 }
 
 #press {
@@ -188,6 +140,57 @@ box-shadow: 0 1px 5px 1px #cccccc;
 
 .carousel-item {
   padding: 7% 15%;
+}
+
+
+
+/*form css*/
+.form-background{
+  background-image:url('images/table.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1201px 479px;
+  background-color: #000;
+
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+h5.card-title, div.card-body{
+  color: black;
 }
 
 
@@ -212,11 +215,11 @@ footer.panel-footer {
   color: #557c3e;
   line-height: 1.8;
 }
-#testimonials{
+#testimonials2{
   font-style: italic;
 }
 
-#testimonials p:nth-child(2){
+#testimonials2 p:nth-child(2){
   margin: 25px 0 0 0;
 }
 
@@ -305,77 +308,102 @@ section.row {
 
 /*end of single category page css*/
 
+/*about page css*/
 
-
-
-
-
-
-
-
-/* #menu-title span{
-  font-size: 2em;
-    font-weight: bold;
-    position: absolute;
-    bottom: 0.3em;
-    color: white;
-    padding: 10px 190px;
-    background-color: black;
-    border-radius: 10px;
-    filter: opacity(0.7);
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
 }
-#menu-title2 span{
-      font-size: 2em;
-      font-weight: bold;
-      position: absolute;
-      bottom: 0.3em;
-      color: white;
-      padding: 0px 132px;
-      background-color: black;
-      border-radius: 10px;
-      filter: opacity(0.7);
-      left: 2.5em;
-      text-align: center;
-} */
-
-
-/* #menulist1{
-  border-color: black;
-border: 10px solid;
-width: 470px;
-height: auto;
-filter: drop-shadow(2px 4px 6px black);
-border-radius: 25px;
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
 }
-#menulist2{
 
-    border: 10px solid;
-    width: 491px;
-    height: auto;
-    filter: drop-shadow(2px 4px 6px black);
-    border-radius: 25px;
-    margin: 0 0 0 61px;
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
 }
-img#menulist1, img#menulist2 {
-  border-color: black;
-  padding: 0 35px;
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
 }
-#map-container-google-1 {
 
 
-    filter: drop-shadow(8px 31px 16px black);
-    border-radius: 25px;
-    margin: 106px 0 0 123px;
-    padding: 0 35px;
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
 }
-#menu-title3 span{
-    font-size: 2em;
-    font-weight: bold;
-    position: absolute;
-    bottom: -2.6999999999999993em;
-    color: white;
-    left: 4em;
-} */
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+/*end of page css*/
+
+
+/*start of awards page css*/
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+/*end awards page css*/
+
+
+
+
+
 
 @media (min-width: 1200px) and (max-width:2560px) {
 div.row{}
@@ -417,7 +445,7 @@ div#collapsable-nav.collapse.navbar-collapse.pull-right{
 }
 
 }
-@media (min-width:451px) and (max-width: 767px) {
+@media (min-width:456px) and (max-width: 767px) {
   div.row{
     padding-bottom: 6rem;
   }
@@ -452,6 +480,8 @@ span.setstar{
     background-size: 300px;
 }
 
+
+/*footer css*/
 .panel-footer section{
   margin:0 0 30px 0;
   text-align: center;
@@ -466,20 +496,12 @@ span.setstar{
     font-size: 1.1em;
     text-align: right;
     margin: -4px 448px 0 0;
+   }
 }
 
 
-}
+@media (max-width:455px){
 
-@media ( max-width: 440px ){
-  #col-xxs-12 {
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    float: left;
-    width: 100%;
-  }
   .panel-footer section{
     margin:0 0 30px 0;
     text-align: center;
@@ -490,20 +512,15 @@ span.setstar{
   .panel-footer section hr{
     width: 50%;
   }
-  .company {
-    color: white;
-    font-size: 1em;
-    font-weight: bold;
-}
-span.setstar {
-    position: absolute;
-    top: 101px;
-    left: 10px;
-}
-.menu-item-tile .menu-item-price {
-    font-size: 1.1em;
-    text-align: right;
-    margin: -4px 59px 10px 0;
-}
+  .menu-item-tile .menu-item-price {
+      font-size: 1.1em;
+      text-align: right;
+      margin: -4px 448px 0 0;
+     }
+  a.navbar-brand{
+    font-size: .9em;
+  }
+
+
 
 }
