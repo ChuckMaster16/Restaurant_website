@@ -86,22 +86,31 @@ div#collapsable-nav.collapse.navbar-collapse.pull-right{
 }
 .mainimage img {
   text-align: center;
-    box-shadow: 0 0 50px #000000;
-    margin-left: 21rem;
-    border-radius: 10px;
-    width: 1200vh;
-    filter: drop-shadow(-5px 22px 11px black);
+box-shadow: 0 0 50px #000000;
+margin-left: 15rem;
+border-radius: 10px;
+width: 100%;
+filter: drop-shadow(-5px 22px 11px black);
 }
 
-#menu-title, #menu-title2, #map-tile{
-  height: 250px;
-  width: 100%;
+#menu-title, #menu-title2{
+  height: 490px;
+  width: 80%;
   margin-bottom: 15px;
   position: relative;
   border: 2px solid #3f0c1f;
   overflow: hidden;
   border-radius: 10px;
 
+}
+#map-tile{
+  height: 490px;
+  width: 50%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3f0c1f;
+  overflow: hidden;
+  border-radius: 10px;
 }
 #menu-title:hover, #menu-title2:hover, #map-tile:hover{
 box-shadow: 0 1px 5px 1px #cccccc;
@@ -130,6 +139,38 @@ box-shadow: 0 1px 5px 1px #cccccc;
   opacity: .8;
   border-radius: 5px;
 }
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #180512;
+  color: #ffff;
+  position: relative;
+  z-index: 1;
+
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #1b1316;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 50px 50px;
+  margin-left: 50px
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
 
 footer.panel-footer {
   margin: 30px 0 0 0;
@@ -242,6 +283,7 @@ section.row {
     margin-right: 0px;
     margin-left: 0px;
 }
+
 /*end of single category page css*/
 
 
