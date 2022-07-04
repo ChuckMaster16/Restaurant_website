@@ -61,12 +61,12 @@ a.navbar-brand{
   padding: 50px;
 }
 .mainimage img {
-  text-align: center;
- box-shadow: 0 0 50px #000000;
- margin-left: 15rem;
- border-radius: 10px;
- width: 100%;
- filter: drop-shadow(-5px 22px 11px black);
+    text-align: center;
+    box-shadow: 0 0 50px #000000;
+    margin-left: 9rem;
+    border-radius: 10px;
+    width: 100vw;
+    filter: drop-shadow(-5px 22px 11px black);
 }
 
 #menu-title, #menu-title2{
